@@ -1,0 +1,95 @@
+:root {
+  --primary-color: #4B0082;
+  /* indigo */
+  --secondary-color: #7732AD;
+  /* dark indigo */
+  --password-field-color: #5F259F;
+  /* deep indigo */
+  --background-color: #E6E6FA;
+  /* lavander */
+  --white: #FFFFFF;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5984e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.new-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.password-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.copy-btn {
+  background: #4caf50;
+  background:#2196f3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #45a049;
+}
+
+.copied-notice {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.control {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+.generate-btn {
+  background: #4caf50;
+
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.generate-btn:hover {
+  background: #0b7dda;
+}
