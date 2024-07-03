@@ -12,8 +12,19 @@ This is a simple React application that generates strong passwords using an impr
 ## Installation
 
 To run the application locally, follow these steps:
+Clone the repository:
 
-1. Clone the repository:
+git clone <repository-url>
 
-   ```bash
-   git clone <repository-url>
+Navigate into the project directory:
+
+cd password-generator-react
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+Open your browser and visit http://localhost:3000 to view the app.
